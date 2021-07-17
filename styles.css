@@ -1,0 +1,59 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-image: url("mouse.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+.heading{
+    min-height: 5vh;
+}
+
+h1{
+    text-align: center;
+    color: rgb(255, 100, 53);
+    font-size: 3rem;
+}
+
+
+
+.keys{
+    display: flex;
+    min-height: 70vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.key{
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 1rem;
+    font-size: 1.5rem;
+    padding: 1rem .5rem;
+    transition: all .07s ease;
+    width: 10rem;
+    text-align: center;
+    color: white;
+    background-color: rgb(19, 5, 18);
+    text-shadow: 0 0 .5rem black;
+    opacity: 0.8;
+}
+.playing{
+    transform: scale(1.1);
+    border-color: rgb(246, 250, 0);
+    box-shadow: 0 0 2rem darkred;
+}
+
+kbd{
+    display: block;
+    font-size: 3rem;
+}
+
+.sound{
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    color: yellow;
+}
